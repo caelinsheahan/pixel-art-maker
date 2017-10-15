@@ -1,0 +1,59 @@
+body {
+  background-image: url("https://media.boingboing.net/wp-content/uploads/2015/10/lovable.jpg");
+}
+
+
+#container {
+  height: 75%;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding:40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent {
+  display: flex;
+  height: 6.25%;
+}
+
+.child {
+  width: 25%;
+  height: 100%;
+  border: 1px solid #ccc;
+}
+
+div.colorPicker-picker {
+  height: 2%;
+  width: 100%;
+  padding: 0;
+  border: 1px solid #ccc;
+  background: url(../arrow.gif) no-repeat top right;
+  cursor: pointer;
+  line-height: 16px;
+  font-size:0.75em;
+  font-weight:bold;
+  text-align: center;
+}
+
+div.colorPicker-palette {
+  width: 110px;
+  position: absolute;
+  border: 1px solid #598FEF;
+  background-color: #EFEFEF;
+  padding: 2px;
+  z-index: 9999;
+}
+  div.colorPicker_hexWrap {width: 100%; float:left }
+  div.colorPicker_hexWrap label {font-size: 95%; color: #2F2F2F; margin: 5px 2px; width: 25%}
+  div.colorPicker_hexWrap input {margin: 5px 2px; padding: 0; font-size: 95%; border: 1px solid #000; width: 65%; }
+
+div.colorPicker-swatch {
+  height: 12px;
+  width: 12px;
+  border: 1px solid #000;
+  margin: 2px;
+  float: left;
+  cursor: pointer;
+  line-height: 12px;
+}
